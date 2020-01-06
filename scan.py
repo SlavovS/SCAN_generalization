@@ -19,7 +19,7 @@ outputs = {"i_turn_right":0, "i_turn_left":1, "i_look":2, "i_walk":3,
 n_tokens = 6
 n_actions = 5
 n_modifiers = 8
-n_outputs = 10
+n_outputs = 8 # the longest sequence of actions in the output (e.g. i_turn_left i_walk i_turn_left i_walk i_turn_left i_walk...)
 n_output_actions = 6
 
 def make_matrix_trial():
